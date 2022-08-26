@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    min-width: 550px;
+}
+
+.container{
+    margin: 20px auto 0 auto;
+    width: 550px;
+    height: 700px;
+    text-align: center;
+
+}
+
+.main{
+    color: white;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0284C7;
+
+}
+
+input{
+    width: 117px;
+    height: 83px;
+    background: #0284C7;
+    border: 3px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 58px;
+    text-align: center;
+    font-weight: bold;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+button{
+    font-size: 20px;
+    width: 117px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    color: white;
+    background: #1F2937;
+}
+
+.section{
+    margin: 0;
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.para{
+    margin: 10px auto 15px auto;
+    border-radius: 8px;
+    width: 500px;
+    color: white;
+    height: 108px;
+    background: #273549;
+    border: none;
+    transition: all 0.5s;
+}
+
+.para:hover{
+    transform: scale(1.05);
+}
+
+@media (hover: hover) {
+    a:hover { color: blue; }
+  }
